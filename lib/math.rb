@@ -1,23 +1,24 @@
-def addition(num1, num2)
-num1 + num2
-end
+  def addition(a,b)
+    a+b
+  end
 
-def subtraction(num1, num2)
-num1 - num2
-end
 
-def division(num1, num2)
-num1 / num2
-end
+  def division(a,b)
+    a / b
+  end
 
-def multiplication(num1, num2)
-num1 * num2
-end
+  def subtraction(a,b)
+    a-b
+  end
 
-def modulo(num1, num2)
-num1 % num2
-end
+  def multiplication(a,b)
+    a * b
+  end
 
-def square_root(num1)
-Math.sqrt(num1)
-end
+  def modulo(a,b)
+    a % b
+  end
+
+  def square_root(a)
+    Math.sqrt(a)
+  end
